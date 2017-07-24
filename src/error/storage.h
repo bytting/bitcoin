@@ -3,7 +3,7 @@
 
 enum class ErrorStorage
 {
-    None = 0;
+    None = 0
 };
 
 namespace std

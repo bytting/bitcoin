@@ -99,6 +99,13 @@ BITCOIN_CORE_H = \
   core_io.h \
   core_memusage.h \
   cuckoocache.h \
+  error/mempool.h \
+  error/miner.h \
+  error/net.h \
+  error/rpc.h \
+  error/storage.h \
+  error/validation.h \
+  error/wallet.h \
   fs.h \
   httprpc.h \
   httpserver.h \
@@ -189,6 +196,13 @@ libbitcoin_server_a_SOURCES = \
   chain.cpp \
   checkpoints.cpp \
   consensus/tx_verify.cpp \
+  error/mempool.cpp \
+  error/miner.cpp \
+  error/net.cpp \
+  error/rpc.cpp \
+  error/storage.cpp \
+  error/validation.cpp \
+  error/wallet.cpp \
   httprpc.cpp \
   httpserver.cpp \
   init.cpp \

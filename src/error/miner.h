@@ -3,7 +3,7 @@
 
 enum class ErrorMiner
 {
-    None = 0;
+    None = 0
 };
 
 namespace std

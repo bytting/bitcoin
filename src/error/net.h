@@ -3,7 +3,7 @@
 
 enum class ErrorNet
 {
-    None = 0;
+    None = 0
 };
 
 namespace std
